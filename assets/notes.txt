@@ -1,0 +1,20 @@
+Color Palette
+***********************
+text grey:     #333
+text white:    #EEE
+
+bone:          #FBF7F8
+
+green, high:   #7EA62C
+green, low:    #638223
+
+brown, high:   #875D3E
+brown, low:    #6B4A31
+
+orange, high:  #EF7011
+orange, low:   #E65520
+
+Mobile Brown:  #212019
+
+
+
