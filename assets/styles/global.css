@@ -27,15 +27,15 @@
 }
 .ribbon a:hover {
 	background-color: #EEE;
-	color: #EF7011;
+	color: #009408;
 }
 
 .ribbon-orange {
-	background-color: #EF7011;
-	background: -webkit-linear-gradient(top, #EF7011, #E65520);
-	background: -moz-linear-gradient(top, #EF7011, #E65520);
-	background: -o-linear-gradient(top, #EF7011, #E65520);
-	background: linear-gradient(to bottom, #EF7011, #E65520);
+	background-color: #7EA62C;
+	background: -webkit-linear-gradient(top, #7EA62C, #638223);
+	background: -moz-linear-gradient(top, #7EA62C, #638223);
+	background: -o-linear-gradient(top, #7EA62C, #638223);
+	background: linear-gradient(to bottom, #7EA62C, #638223);
 }
 
   /**************************/
@@ -61,11 +61,12 @@
 	width: 30px;
 	margin: -5px 20px 0 0;
 }
-#desktop-nav path {
-	fill: #638223;
+#action-ul i {
+	margin: -5px 20px 0 0;
+	color: #638223;
 }
-#desktop-nav path:hover {
-	fill: #7EA62C;
+#action-ul i:hover {
+	color: #7EA62C
 }
 
 /*   Super Navigation Items   */
@@ -133,15 +134,11 @@
 	background: -o-linear-gradient(top, #7EA62C, #638223);
 	background: linear-gradient(to bottom, #7EA62C, #638223);
 }
-#parent-ul > li svg	 {
-	height: 10px;
-	width: 15px;
+#parent-ul i {
+	color: #638223;
 }
-#parent-ul path {
-	fill: #638223;
-}
-#parent-ul > li:hover path {
-	fill: #EEE;
+#parent-ul li:hover i {
+	color: #EEE;
 }
 #desktop-nav #nav-full ul li:hover {
 	background-color: #638223;
@@ -230,12 +227,8 @@
 	height: auto;
 	padding-top: 10px;
 }
-#mobile-menu svg {
-	height: 30px;
-	width: 50px;
-}
-#mobile-menu path {
-	fill: #EEE;
+#mobile-menu i {
+	margin: 0 10px;
 }
 #mobile-menu ul {
 	list-style: none;
@@ -259,19 +252,15 @@
 #mobile-toggle {
 	position: absolute;
 	right: 30px;
-	top: 75px;
+	top: 85px;
 	display: block;
 	cursor: pointer;
 }
-#mobile-toggle svg {
-	height: 20px;
-	width: auto;
+#mobile-toggle i {
+	color: #333;
 }
-#mobile-toggle path {
-	fill: #333;
-}
-#mobile-toggle:hover path {
-	fill: #E65520;
+#mobile-toggle:hover i {
+	color: #E65520;
 }
 
 /*   Active Mobile States   */
@@ -283,8 +272,8 @@
 	right: 230px;
 	overflow: hidden;
 }
-#mobile-toggle.toggle-active path {
-	fill: #E65520;
+#mobile-toggle.toggle-active i {
+	color: #E65520;
 }
 .menu-active {
 	right: 0 !important;
