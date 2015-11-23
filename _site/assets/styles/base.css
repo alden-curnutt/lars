@@ -3,7 +3,7 @@
 |*|   @title    Base.css
 |*|   @author   Alden J. Curnutt
 |*|   @ver      0.3
-|*|   @updated  07 June 2015
+|*|   @updated  22 November 2015
 |*|
 |*|   _CSS Reset   
 |*|   http://meyerweb.com/eric/tools/css/reset/
@@ -215,6 +215,11 @@ ul li { line-height: 1.5em;  }
 .segoeSL { font-family: 'Segoe UI Light', 'Segoe UI SemiLight', 'Segoe UI','Open Sans', sans-serif; }
 .nevis { font-family: 'Nevis', sans-serif; }
 .open-sans { font-family: 'Open Sans', sans-serif; }
+
+/*  Font Colors  */
+.tblack { color: #000; }
+.twhite { color: #FFF; }
+.tred { color: #F04509; }
 
 /*   Interaction helpers   */
 .caret-hide {

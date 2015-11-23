@@ -541,6 +541,20 @@ ul.ul-modified li {
 	line-height: 1.5em;
 	margin-bottom: 15px;
 }
+ul.ul-faq {
+	padding-left: 30px;
+	list-style: none;
+}
+ul.ul-faq li {
+	line-height: 1.5em;
+	margin: -10px 0 15px;
+
+}
+ul.ul-faq li:before {
+	font-weight: bold;
+
+	content: "A: ";
+}
 
 /*   Panel Def: Anchors   */
 .body-content a {
