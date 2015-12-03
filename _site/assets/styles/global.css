@@ -47,12 +47,22 @@
 	background-image: url('../../assets/images/images/paper.jpg');
 	background-position: cover;
 	border-radius: 2px solid #F5F4DD;
-	padding-top: 20px;
+	/*padding-top: 20px;*/
 	/*padding-bottom: 5px;*/
 	-webkit-box-shadow: 0px 1px 15px 2px rgba(38,26,18,0.5);
 	-moz-box-shadow: 0px 1px 15px 2px rgba(038,26,18,0.5);
 	box-shadow: 0px 1px 15px 2px rgba(038,26,18,0.5);
 }
+
+
+#desktop-nav #top-shelf {
+	height: 35px;
+	padding: 10px 10px 0 10px;
+}
+
+
+
+
 #desktop-nav .split {
 	padding: 0 20px;
 }
@@ -62,7 +72,7 @@
 	margin: -5px 20px 0 0;
 }
 #action-ul i {
-	margin: -5px 20px 0 0;
+	margin: -3px 20px 0 0;
 	color: #638223;
 }
 #action-ul i:hover {
@@ -71,12 +81,12 @@
 
 /*   Super Navigation Items   */
 #action-ul {
-	margin-bottom: 40px;
+	
 	list-style: none;
 }
 #action-ul li {
 	float: right;
-	font-size: 20px;
+	font-size: 16px;
 }
 #action-ul .action {
 	background-color: #7EA62C;
@@ -104,16 +114,16 @@
 
 /*   Title & Dropdowns   */
 #desktop-nav #nav-full {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
-#desktop-nav h1 {
+#desktop-nav h3 {
 	display: inline-block;
 	position: relative;
-	font-size: 35px;
-	top: -12px;
+	/*font-size: 35px;*/
+	top: -7px;
 }
 #desktop-nav img {
-	height: 50px;
+	height: 30px;
 	width: auto;
 }
 #parent-ul, #parent-ul ul {
@@ -140,6 +150,8 @@
 #parent-ul li:hover i {
 	color: #EEE;
 }
+
+
 #desktop-nav #nav-full ul li:hover {
 	background-color: #638223;
 }
@@ -309,7 +321,7 @@
 	padding: 15px 20px;
 	background-color: rgba(0,0,0,0.6);
 }
-.cycle-slideshow h1 {
+.cycle-slideshow h2 {
 	text-transform: uppercase;
 	color: #EEE;
 }
