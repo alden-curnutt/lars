@@ -852,6 +852,10 @@ iframe.volunteer {
 	width: 100%;
 	min-height: 1300px;
 }
+iframe.donate {
+	width: 100%;
+	min-height: 1300px
+}
 
 /*   Panel Def: Contact: Social   */
 .social {
