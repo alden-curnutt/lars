@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!--  Meta  -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="{{ page.description }}">
+	<meta name="author" content="{{ site.author }}">
+	
+	<!--  Tab Info  -->
+	<title>{{ page.title }}</title>
+	<link rel="shortcut icon" href="assets/images/brand/logo.png">
+	
+	<!--  CSS  -->
+	<link type="text/css" rel="stylesheet" href="assets/styles/font-awesome.css">
+	<link type="text/css" rel="stylesheet" href="assets/styles/tipuesearch.css">
+	<link type="text/css" rel="stylesheet" href="assets/styles/base.css">
+	<link type="text/css" rel="stylesheet" href="assets/styles/global.css">
+	<style type="text/css">
+		h2, #glass, form {
+			display: inline-block;
+		}
+		h2 {
+			
+			margin: 0 20px 5px 0;
+			padding-bottom: 10px;
+		}
+		#glass {
+			background-color: #1DB7EE !important;
+		    height: 30px;
+		    margin: 0 -4px 0px 0;
+		    padding: 15px 15px 33px 15px;
+		    border-top-left-radius: 3px;
+		    border-bottom-left-radius: 3px;
+		    color: #FFF;
+		}
+		form {
+			min-width: 20%;
+			border-top: 1px solid #CCC;
+			border-right: 1px solid #CCC;
+			border-bottom: 1px solid #CCC;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+		}
+		input {
+			width: 100% !important;
+		}
+		#tipue_search_results_count {
+			font-weight: bold;
+		}
+		.tipue_search_content_title {
+			border-top: 1px solid #bbb;
+		}
+		.tipue_search_content_title a {
+
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		.tipue_search_content_url a {
+			color: #1DB7EE !important
+		}
+		.tipue_search_content_text {
+			margin: 0 0 35px 0;
+			color: #888;
+		}
+	</style>
+	
+	<!--  JS  -->
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>-->
+	<script type="text/javascript" src="assets/scripts/jquery.js"></script>
+	<script type="text/javascript" src="assets/scripts/tipuesearch_content.js"></script>
+	<script type="text/javascript" src="assets/scripts/tipuesearch_set.js"></script>
+	<script type="text/javascript" src="assets/scripts/tipuesearch.js"></script>
+	<script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-33675979-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>
+	<script type="text/javascript" src="assets/scripts/nav.js"></script>
+	<script type="text/javascript" src="assets/scripts/jquery.cycle2.min.js"></script>
+	<script type="text/javascript">
+		$("#glass").on('click', function() {
+			getTipueSearch(0, true);
+
+		});
+	</script>
+</head>
