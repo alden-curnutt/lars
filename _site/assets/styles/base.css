@@ -103,10 +103,12 @@
 }
 
 
-  /*****************************/
- /*   Import | Google Fonts   */
-/*****************************/
-
+  /******************/
+ /*  Font Imports  */
+/******************/
+:root {
+  font-size: 16px;
+}
 /*   Open Sans import from local /assets/fonts   */
 @font-face {
   font-family: 'Open Sans';
@@ -119,7 +121,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	margin: 0; 
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 1rem;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -161,12 +163,12 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1em;
   color: #555;
 }
-h1, .h1 { font-size: 2em }
-h2, .h2 { font-size: 1.6em }
-h3, .h3 { font-size: 1.4em }
-h4, .h4 { font-size: 1.2em }
-h5, .h5 { font-size: 1.1em }
-h6, .h6 { font-size: 1em }
+h1, .h1 { font-size: 2rem }
+h2, .h2 { font-size: 1.6rem }
+h3, .h3 { font-size: 1.4rem }
+h4, .h4 { font-size: 1.2rem }
+h5, .h5 { font-size: 1.1rem }
+h6, .h6 { font-size: 1rem }
 hr { 
   margin: 0; 
   padding: 0;
@@ -200,6 +202,7 @@ ul li { line-height: 1.5em;  }
 .border-w { border: 1px solid white; }
 .border-g { border: 1px solid #CCC; }
 .border-r { border: 1px solid red; }
+.b-s { box-shadow: 0 0 10px 0 rgba(0,0,0,0.2); }
 
 /*   Display   */
 .hidden { display: none !important; }
@@ -208,6 +211,30 @@ ul li { line-height: 1.5em;  }
 .bkg-r { background-color: red; }
 .bkg-g { background-color: green; }
 .bkg-b { background-color: blue }
+
+/*  Padding  */
+.p-a-5 { padding: 5px; }
+.p-t-5 { padding-top: 5px; }
+.p-r-5 { padding-right: 5px; }
+.p-b-5 { padding-bottom: 5px; }
+.p-l-5 { padding-left: 5px; }
+.p-a-10 { padding: 10px; }
+.p-t-10 { padding-top: 10px; }
+.p-r-10 { padding-right: 10px; }
+.p-b-10 { padding-bottom: 10px; }
+.p-l-10 { padding-left: 10px; }
+
+/*  Margin  */
+.m-a-5 { margin: 5px; }
+.m-t-5 { margin-top: 5px; }
+.m-r-5 { margin-right: 5px; }
+.m-b-5 { margin-bottom: 5px; }
+.m-l-5 { margin-left: 5px; }
+.m-a-10 { margin: 10px; }
+.m-t-10 { margin-top: 10px; }
+.m-r-10 { margin-right: 10px; }
+.m-b-10 { margin-bottom: 10px; }
+.m-l-10 { margin-left: 10px; }
 
 /*   Fonts   */
 .segoe { font-family: 'Segoe UI', 'Open Sans', sans-serif; }
@@ -318,6 +345,22 @@ ul li { line-height: 1.5em;  }
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.row-full-width {
+  width: 100%;
+  margin: 20px 0;
+  padding: 0 20px !important;
+}
+
+.new-row {
+  margin: 0 auto;
+}
+
+
+@media (min-width: 768px) { .new-row { width: 750px; } }
+@media (min-width: 992px) { .new-row { width: 970px; } }
+@media (min-width: 1200px) { .new-row { width: 1170px; } }
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -329,7 +372,11 @@ ul li { line-height: 1.5em;  }
 @media (min-width: 992px) { .container { width: 970px; } }
 @media (min-width: 1200px) { .container { width: 1170px; } }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+.col-full-width {
+  width: 100%;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 { position: relative; min-height: 1px; padding-right: 10px; padding-left: 10px; }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 { float: left; }
 .col-xs-12 { width: 100%; }
 .col-xs-11 { width: 91.66666667%; }
