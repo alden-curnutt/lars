@@ -23,8 +23,8 @@ body {
 .lars-orange { color: #E43013; }
 .fb-blue { color: #3C5899; }
 .tt-blue { color: #28A9E0; }
-.link-blue { color: #337AB7; text-decoration: dotted; }
-.link-blue:hover { color: #296191; text-decoration: underline; }
+.link-blue { color: #337AB7; border-bottom: 1px solid; border-bottom-style: dashed; text-decoration: none; }
+.link-blue:hover { color: #296191; border-bottom: 1px solid; }
 
   /********************/
  /*  Site Gradients  */
@@ -72,7 +72,7 @@ body {
 
 #desktop-nav {
 	background-color: #FFFAFA;
-	background-image: url('../../assets/images/images/paper.jpg');
+	
 	background-position: cover;
 	border-radius: 2px solid #F5F4DD;
 	/*padding-top: 20px;*/
@@ -454,9 +454,32 @@ body {
  /*   In Page Navigation   */
 /**************************/
 
+.nav-inpage {
+
+}
+.nav-inpage .nav-inpage-title {
+	font-weight: bold;
+	background-color: #CCC;
+	/*
+	background: -webkit-linear-gradient(top, #7EA62C, #638223);
+	background: -moz-linear-gradient(top, #7EA62C, #638223);
+	background: -o-linear-gradient(top, #7EA62C, #638223);
+	background: linear-gradient(to bottom, #7EA62C, #638223);
+	*/
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border: 0px;
+}
+.nav-inpage .nav-inpage-title-blue {
+	background: -webkit-linear-gradient(top, #0072C6, #005B9E);
+	background: -moz-linear-gradient(top, #0072C6, #005B9E);
+	background: -o-linear-gradient(top, #0072C6, #005B9E);
+	background: linear-gradient(to bottom, #0072C6, #005B9E);
+}
+
 .nav-inpage ul {
 	list-style: none;
-	background-color: #FBF7F8;
+	background-color: #FFFAFA;
 	/*padding: 15px;*/
 	border-radius: 5px;
 	-webkit-box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
@@ -472,10 +495,10 @@ body {
 .nav-inpage .nav-inpage-title {
 	font-weight: bold;
 	background-color: #CCC;
-	background: -webkit-linear-gradient(top, #7EA62C, #638223);
+	/*background: -webkit-linear-gradient(top, #7EA62C, #638223);
 	background: -moz-linear-gradient(top, #7EA62C, #638223);
 	background: -o-linear-gradient(top, #7EA62C, #638223);
-	background: linear-gradient(to bottom, #7EA62C, #638223);
+	background: linear-gradient(to bottom, #7EA62C, #638223);*/
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	border: 0px;
@@ -562,15 +585,18 @@ body {
 
 /*   Panel Def: Panel Elements   */
 .panel {
-	background-color: #FFF;
+	background-color: #FFFAFA;
 	margin: 10px 0;
 	padding: 5px 10px;
 	position: relative;
-
 	font-size: 1rem;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
 	text-align: center;
+}
+.panel .panel {
+	margin: -5px -20px -5px -10px;
+	box-shadow: none;
 }
 
 .row-full-width {
@@ -578,18 +604,30 @@ body {
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
 }
 .row-full-width .col-full-width {
-	padding: 0 10px;
+	padding: 10px 10px;
 }
 .row-full-width .panel {
 	box-shadow: none;
 }
 
+.panel a {
+	color: #337AB7;
+	border-bottom: 1px solid;
+	border-bottom-style: dashed;
+	text-decoration: none;
+}
+.panel a:hover {
+	color: #296191;
+	border-bottom: 1px solid;
+}
 .panel a.link {
 	position: absolute;
 	right: 10px;
 	text-decoration: none;
+	border: none;
 	text-transform: uppercase;
 	font-size: .80rem;
+	cursor: pointer;
 }
 .panel h3 {
 	margin: 12px 0 8px 0;
@@ -614,7 +652,7 @@ body {
 }
 
 .panel-blue .link { color: #0072C6; }
-.panel-blue .link:after { content: "About" }
+.panel-blue .link:after { content: "About • LARS" }
 .panel-blue h3 { border-bottom: 3px solid #0072C6; }
 .panel-blue a.cta { background-color: #0072C6; border: 1px solid #0072C6; }
 
@@ -622,7 +660,7 @@ body {
 
 }
 .panel-green .link { color: #429909; }
-.panel-green .link:after { content: "Events" }
+.panel-green .link:after { content: "Events • LARS" }
 .panel-green h3 { border-bottom: 3px solid #429909; }
 .panel-green a.cta { background-color: #429909; border: 1px solid #429909; }
 
@@ -630,7 +668,7 @@ body {
 
 }
 .panel-purple .link { color: #3E037A; }
-.panel-purple .link:after { content: "Get Help" }
+.panel-purple .link:after { content: "Get Help • LARS" }
 .panel-purple h3 { border-bottom: 3px solid #3E037A; }
 .panel-purple a.cta { background-color: #3E037A; border: 1px solid #3E037A; }
 
@@ -638,7 +676,7 @@ body {
 
 }
 .panel-orange .link { color: #E43013; }
-.panel-orange .link:after { content: "Get Involved" }
+.panel-orange .link:after { content: "Get Involved • LARS" }
 .panel-orange h3 { border-bottom: 3px solid #E43013; }
 .panel-orange a.cta { background-color: #E43013; border: 1px solid #E43013; }
 
@@ -1072,8 +1110,8 @@ iframe.donate {
  /*   Footer Content   */
 footer {
 	margin: 30px 0 0 0 ;
-	background-color: #FFFFF0;
-    background-image: url('../../assets/images/images/paper.jpg');
+	background-color: #FFFAFA;
+    
     text-align: center;
     -webkit-box-shadow: inset 0px 5px 7px rgba(38,26,18,0.5);
     -moz-box-shadow: inset 0px 5px 7px rgba(38,26,18,0.5);
@@ -1085,10 +1123,6 @@ footer ul {
 }
 footer ul li {
     line-height: 1.75em;
-}
-footer ul li a:hover {
-    color: #638223;
-    text-decoration: underline;
 }
 
 /*   Footer Qualifications   */

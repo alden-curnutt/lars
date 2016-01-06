@@ -28,3 +28,4 @@ Orange:   #E43013
 FB Blue:  #3C5899
 TT Blue:  #28A9E0
 
+Panel:    #FFFAFA
