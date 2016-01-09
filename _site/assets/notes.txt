@@ -21,14 +21,14 @@ Mobile Brown:  #212019
 New Color Palette
 ***********************
 Blue:      #0072C6
-Green:     #429909
-Purple:    #3E037A
 Orange:    #E44A2B
+Purple:    #3E037A
+Green:     #429909
 
 Blue G:    #0072C6 > #005B9E
 Orange G:  #E44A2B > #B03921
 Purple G:  #3E037A > #310261
-Green G:   
+Green G:   #429909 > #378008
 
 FB Blue:   #3C5899
 TT Blue:   #28A9E0

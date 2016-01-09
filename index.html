@@ -58,85 +58,11 @@ published: true
 		</div><!-- END Slide -->
 	</div><!-- END Carousel Slider -->
 
-
-	<!-- START Body Content -->
-	<div class="row-full-width clearfix">
-		<div class="row">
-			<div class="col-full-width">
-				<div class="panel panel-orange b-s">
-					<a href="about.html" class="link"></a>
-					<h3>The Holiday Appeal</h3>
-					<p>Looking to find that holiday meaning again? Your year-end gift to LARS will make an immediate impact in the lives of people right here in your community who are struggling to meet their most basic needs.</p>
-					<p>We want to share this hoiday season with you in the best way. Read below to find that holiday appeal once again!</p>
-					<a href="http://laureladvocacy.org/assets/documents/2015-12-Holiday-Appeal.pdf" class="cta" target="_blank">Details</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="row clearfix">
-		<div class="col-xs-12 col-sm-6">
-			<div class="panel panel-blue">
-				<a href="about.html" class="link"></a>
-				<h3>Holiday Program</h3>
-				<p>All families have been adopted for the 2015 Holiday Program. Loose gift and food donations are still being accepted! Please click below to get more information.</p>
-				<a class="cta" href="holiday-program.html">Details</a>
-			</div>
-		</div>
-
-		<div class="col-xs-12 col-sm-6">
-			<div class="panel panel-blue">
-				<a href="board-and-staff.html"class="link"></a>
-				<h3>Board Opening</h3>
-				<p>LARS is currently looking for a new board member. Our <a href="board-and-staff.html">Board &amp; Staff page</a> has more details on how to make a meaningful contribution to the Laurel community.</p>
-				<a href="board-and-staff.html" class="cta">More Info</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="row clearfix">
-		<div class="col-xs-12 col-sm-6 col-md-4">
-			<div class="panel panel-blue">
-				<a href="board-and-staff.html"class="link"></a>
-				<h3>Staff Opening</h3>
-				<p>LARS is looking for a full-time Emergency Services Case Manager / Progam Coordinator. Our <a href="board-and-staff.html">Board &amp; Staff page</a> has more details on how to become a part of the LARS team.</p>
-				<a href="board-and-staff.html" class="cta">More Info</a>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4">
-			<div class="panel panel-green">
-				<a href="get-involved.html" class="link"></a>
-				<h3>Amazon Smile</h3>
-				<p>Shopping Amazon? Consider shopping through this Amazon Smile instead. <a href="donate.html">Here’s a way</a> to donate while you shop for your loved ones this holiday season.</p>
-				<a class="cta" href="http://smile.amazon.com/ch/52-1537336" target="_blank">Amazon Smile</a>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-4">
-			<div class="panel panel-blue">
-				<a href="about.html"class="link"></a>
-				<h3>Partners For Wellness</h3>
-				<p>LARS was recently selected to receive the Capital Area Food Bank’s Partners for Wellness designation. This is a great honor that we want to share with you. <a href="about.html">Learn more about it</a>!</p>
-				<a href="https://www.capitalareafoodbank.org/2015/11/drum-roll-pleaseintroducing-our-first-partners-for-wellness/" class="cta" target="_blank">Check It Out</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="row clearfix">
-		<div class="col-xs-12">
-			<div class="panel panel-blue">
-				<a href="about.html" class="link"></a>
-				<h3>Best In America</h3>
-				<p>LARS, Inc is a member with <a href="http://www.independentcharities.org/home/" target="_blank">Independent Charities of America</a> and has been certified as one of the <a href="http://www.independentcharities.org/home/" target="_blank">Best in America</a>. See below for more details.</p>
-				<a href="about.html" class="cta">Learn More</a>
-			</div>
-		</div>	
-	</div>
-
-	<div class="row-full-width clearfix">
+	<div class="row-full-width clearfix margin-top-40">
 		<div class="row">
 			<div class="col-full-width">
 				<div class="panel panel-blue b-s">
-					<a href="about.html" class="link"></a>
+					{{ site.about }}
 					<h3>Mission &amp; Vision</h3>
 					<p class="p-l-15"><span class="b em">Our Mission</span> is to enable homeless and low-income people in Laurel who are in crisis to achieve stability and long-term self-sufficiency.</p>
 					<p class="p-l-15"><span class="b em">Our Vision</span> is a community that treats all people with dignity and helps everyone meet their basic needs.</p>
@@ -145,35 +71,43 @@ published: true
 		</div>
 	</div>
 
+	<!-- START Body Content -->
 	<div class="row clearfix">
-		<div class="col-xs-12">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 			<div class="panel panel-blue">
-				<a href="about.html" class="link"></a>
-				<h3>We are a Center of Hope</h3>
-				<p><span class="b">Laurel Advocacy &amp; Referral Services, Inc. (LARS)</span> has been assisting the Laurel community since 1987 with services such as homelessness prevention, food pantry access, employment assistance and <a href="about.html" class="link-blue">much more</a>.</p>
-				<p>We can do more by learning about each other. Get to know us and when you're ready, <a href="contact.html">contact us</a> so we can work together!</p>
-				<a href="about.html" class="cta">Learn More</a>
+				{{ site.about }}
+				<h3>Board Opening</h3>
+				<p>LARS is currently looking for a new board member. Our <a href="board-and-staff.html">Board &amp; Staff page</a> has more details on how to make a meaningful contribution to the Laurel community.</p>
+				<a href="board-and-staff.html" class="cta">More Info</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="panel panel-blue">
+				{{ site.about }}
+				<h3>Staff Opening</h3>
+				<p>LARS is looking for a full-time Emergency Services Case Manager / Progam Coordinator. Our <a href="board-and-staff.html">Board &amp; Staff page</a> has more details on how to become a part of the LARS team.</p>
+				<a href="board-and-staff.html" class="cta">More Info</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<div class="panel panel-green">
+				{{ site.getInvolved }}
+				<h3>Amazon Smile</h3>
+				<p>Shopping Amazon? Consider shopping through this Amazon Smile instead. <a href="donate.html">Here’s a way</a> to donate while you shop.</p>
+				<a class="cta" href="http://smile.amazon.com/ch/52-1537336" target="_blank">Amazon Smile</a>
 			</div>
 		</div>
 	</div>
 
 	<div class="row clearfix">
 		<div class="col-xs-12">
-			<div class="panel clearfix" style="">
-				<div class="col-xs-12 col-sm-4 col-md-3 panel-img-side p-t-5 p-b-5">
-					<img style="max-width: 200px;" src="assets/images/brand/GSX_TierLogo_GOLD-PNG.png" alt="GuideStar Exchange • Gold Participant">
-				</div>
-				<div class="col-xs-12 col-sm-8 col-md-9">
-					<div class="panel panel-blue">
-						<a class="link"></a>
-						<h3>LARS, A GuideStar Gold Participant</h3>
-						<p>LARS has achieved Gold status on the GuideStar Exchange, representing a deep commitment to nonprofit transparency and accountability</p>
-						<a href="http://www.guidestar.org/organizations/52-1537336/laurel-advocacy-referral-services.aspx" class="cta" target="_blank">Learn More</a>
-					</div>
-				</div>
+			<div class="panel panel-blue">
+				{{ site.about }}
+				<h3>Partners For Wellness</h3>
+				<p>LARS was recently selected to receive the Capital Area Food Bank’s Partners for Wellness designation. This is a great honor that we want to share with you. <a href="about.html">Learn more about it</a>!</p>
+				<a href="https://www.capitalareafoodbank.org/2015/11/drum-roll-pleaseintroducing-our-first-partners-for-wellness/" class="cta" target="_blank">Check It Out</a>
 			</div>
 		</div>
-		
-	</div><br><!-- END Content -->
+	</div><!-- END Content -->
 
 </div><!-- END Body Content -->

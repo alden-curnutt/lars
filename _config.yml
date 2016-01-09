@@ -17,3 +17,10 @@ markdown: kramdown
 # Styles
 sass: 
     sass_dir: _sass
+
+# Site Panel Links
+about: <a class="link" href="about.html"></a>
+events: <a class="link" href="events.html"></a>
+getHelp: <a class="link" href="get-help.html"></a>
+getInvolved: <a class="link" href="get-involved.html"></a>
+

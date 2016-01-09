@@ -1,9 +1,9 @@
 /*\
-|*|   @title    Global.css
+|*|   @title    Application.css
 |*|   @author   Alden J. Curnutt
 |*|   @site     http://www.laureladvocacy.org   
-|*|   @ver      1.0
-|*|   @updated  02 August 2015
+|*|   @ver      2.0
+|*|   @updated  09 January 2016
 \*/
 
 
@@ -673,6 +673,10 @@ body {
 	color: #296191;
 	border-bottom: 1px solid;
 }
+.panel a.img {
+	border: none;
+}
+
 .panel a.link {
 	position: absolute;
 	right: 10px;
@@ -701,6 +705,7 @@ body {
 }
 .panel a.cta {
 	display: inline-block;
+	margin: 0 0 10px 0;
 	padding: 5px 15px;
 	border-radius: 3px;
 	color: #FFF;
@@ -710,18 +715,22 @@ body {
 	
 }
 
+.panel ul {
+	text-align: left;
+}
+
 .panel-blue .link { color: #0072C6; }
 .panel-blue .link:after { content: "About • LARS" }
 .panel-blue h3 { border-bottom: 3px solid #0072C6; }
 .panel-blue a.cta { background-color: #0072C6; border: 1px solid #0072C6; }
 
-.panel-green {
+.panel-orange {
 
 }
-.panel-green .link { color: #429909; }
-.panel-green .link:after { content: "Events • LARS" }
-.panel-green h3 { border-bottom: 3px solid #429909; }
-.panel-green a.cta { background-color: #429909; border: 1px solid #429909; }
+.panel-orange .link { color: #E44A2B; }
+.panel-orange .link:after { content: "Events • LARS" }
+.panel-orange h3 { border-bottom: 3px solid #E44A2B; }
+.panel-orange a.cta { background-color: #E44A2B; border: 1px solid #E44A2B; }
 
 .panel-purple {
 
@@ -731,13 +740,13 @@ body {
 .panel-purple h3 { border-bottom: 3px solid #3E037A; }
 .panel-purple a.cta { background-color: #3E037A; border: 1px solid #3E037A; }
 
-.panel-orange {
+.panel-green {
 
 }
-.panel-orange .link { color: #E44A2B; }
-.panel-orange .link:after { content: "Get Involved • LARS" }
-.panel-orange h3 { border-bottom: 3px solid #E44A2B; }
-.panel-orange a.cta { background-color: #E44A2B; border: 1px solid #E44A2B; }
+.panel-green .link { color: #429909; }
+.panel-green .link:after { content: "Get Involved • LARS" }
+.panel-green h3 { border-bottom: 3px solid #429909; }
+.panel-green a.cta { background-color: #429909; border: 1px solid #429909; }
 
 
 
@@ -991,8 +1000,11 @@ p.note {
 .profile {
 	display: block;
 }
-.profile h4 {
-	margin-bottom: 10px;
+.profile h3 {
+	
+}
+.profile p.position {
+	border-bottom: 2px solid #0072C6;
 }
 .profile img {
 	text-align: center !important;
@@ -1001,7 +1013,8 @@ p.note {
 	border: 2px solid #0072C6;
 }
 .bio-hid {
-	height: 10.5em;
+
+	height: 8rem;
 	overflow: hidden;
 }
 
@@ -1050,26 +1063,21 @@ p.note {
 	border: 1px solid green;
 }
 #mc-embedded-subscribe {
+	border: none;
 	margin-top: 20px;
-	padding: 10px 45px;
+	padding: 5px 15px;
 	color: #EEE;
 	font-size: 20px;
-	background-color: #7EA62C;
-	background: -webkit-linear-gradient(top, #7EA62C, #638223);
-	background: -moz-linear-gradient(top, #7EA62C, #638223);
-	background: -o-linear-gradient(top, #7EA62C, #638223);
-	background: linear-gradient(to bottom, #7EA62C, #638223);
-	border-radius: 5px;
-	border: 1px solid #638223;
+	background-color: #0072C6;
+	background: -webkit-linear-gradient(top, #0072C6, #005B9E);
+	background: -moz-linear-gradient(top, #0072C6, #005B9E);
+	background: -o-linear-gradient(top, #0072C6, #005B9E);
+	background: linear-gradient(to bottom, #0072C6, #005B9E);
+	border-radius: 3px;
 	cursor: pointer;
 }
 #mc-embedded-subscribe:hover {
-	background-color: #638223;
-	background: -webkit-linear-gradient(top, #638223, #7EA62C);
-	background: -moz-linear-gradient(top, #638223, #7EA62C);
-	background: -o-linear-gradient(top, #638223, #7EA62C);
-	background: linear-gradient(to bottom, #638223, #7EA62C);
-	color: #FFF;
+
 }
 
 /*  Panel Def: Contact Forms   */
@@ -1158,7 +1166,7 @@ iframe.donate {
     width: 100%;
     margin: 0 0 30px 0;
     padding: 4px 0;
-    background-color: #7EA62C;
+    background-color: #0072C6;
     text-align: center;
 }
 #fancy a {

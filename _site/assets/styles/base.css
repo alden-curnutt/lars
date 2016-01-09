@@ -285,7 +285,7 @@ ul li { line-height: 1.5em;  }
 .trans1 { -o-transition:.1s; -ms-transition:.1s; -moz-transition:.1s; -webkit-transition:.1s; transition:.1s; }
 
 /*   Text Styling   */
-.tcenter { text-align: center; }
+.tcenter { text-align: center !important; }
 .tleft { text-align: left; }
 .tright { text-align: right; }
 .tupper { text-transform: uppercase; }
