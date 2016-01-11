@@ -5,17 +5,21 @@ title: Laurel Advocacy & Referral Services, Inc - Site search services
 description: LARS, Inc. - Search LARS, Inc. for the information you need.
 ---
 
+<!-- START Body Content -->
 <div class="content">
-	<div class="container body-content">
-		<div class="row">
-			<div class="panel-bone">
-				<h2>Search LARS, Inc.</h2>
-				<hr class="orange">
-				
+	<div id="description" style="display: none;">{{ page.description }}</div>
+	
+	<div class="row margin-top-40 clearfix">
+		<div class="col-xs-12">
+			<div class="panel panel-blue">
+				{{ site.about }}
+				<h3>Search LARS, Inc.</h3>
 				<div id="glass"><i class="fa fa-search"></i></div>
-				<form action="search.html">
-					<input type="text" name="q" id="tipue_search_input" autocomplete="off" required style="padding: 12px;">
-				</form><br>
+				<div class="clearfix">
+					<form action="search.html">
+						<input type="text" name="q" id="tipue_search_input" autocomplete="off" required style="padding: 12px;">
+					</form>
+				</div>
 				<div id="tipue_search_content"></div><br>
 				<div class="tipue_search_spinner"><div class="tipue_search_rect1"></div><div class="tipue_search_rect2"></div><div class="tipue_search_rect3"></div></div>
 			</div>
@@ -26,8 +30,10 @@ description: LARS, Inc. - Search LARS, Inc. for the information you need.
 		$(document).ready(function() {
 		     $('#tipue_search_input').tipuesearch({
 		     	'mode': 'live',
-
+		     	'liveDescription': '#description',
+		     	'liveContent': '.content'
 		     });
 		});
 	</script>
-</div>
+
+</div><!-- END Body Content -->

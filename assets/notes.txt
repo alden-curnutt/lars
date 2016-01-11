@@ -25,6 +25,12 @@ Orange:    #E44A2B
 Purple:    #3E037A
 Green:     #429909
 
+Light Blue:  #C9E4F2
+Light Orange: #FAD8C1
+Light Purple:  #E7CFFC
+Light Green:  #DDFFD1
+
+
 Blue G:    #0072C6 > #005B9E
 Orange G:  #E44A2B > #B03921
 Purple G:  #3E037A > #310261
