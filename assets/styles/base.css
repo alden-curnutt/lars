@@ -255,7 +255,7 @@ ul li { line-height: 1.5em;  }
 
 /*  Font Colors  */
 .tblack { color: #000; }
-.twhite { color: #FFF; }
+.twhite { color: #FFF !important; }
 .tred { color: #F04509; }
 
 /*   Interaction helpers   */
