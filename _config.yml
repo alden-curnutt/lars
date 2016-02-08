@@ -24,3 +24,28 @@ events: <a class="link" href="events.html"></a>
 getHelp: <a class="link" href="get-help.html"></a>
 getInvolved: <a class="link" href="get-involved.html"></a>
 
+# Site Links
+links:
+  index: <code><a href="index.html" target="_blank">index.html</a></code>
+  about: <code><a href="about.html" target="_blank">about.html</a></code>
+  whateWeDo: <code><a href="what-we-do.html" target="_blank">what-we-do.html</a></code>
+  boardAndStaff: <code><a href="board-and-staff.html" target="_blank">board-and-staff.html</a></code>
+  press: <code><a href="press.html" target="_blank">press.html</a></code>
+  contact: <code><a href="contact.html" target="_blank">contact.html</a></code>
+  events: <code><a href="events.html" target="_blank">events.html</a></code>
+  springIntoSummer: <code><a href="spring-into-summer.html" target="_blank">spring-into-summer.html</a></code>
+  turkeyTrot: <code><a href="turkey-trot.html" target="_blank">turkey-trot.html</a></code>
+  holidayProgram: <code><a href="holiday-program.html" target="_blank">holiday-program.html</a></code>
+  getHelp: <code><a href="get-help.html" target="_blank">get-help.html</a></code>
+  howToGetHelp: <code><a href="how-to-get-help.html" target="_blank">how-to-get-help.html</a></code>
+  foodAssistance: <code><a href="food-assistance.html" target="_blank">food-assistance.html</a></code>
+  homelessServices: <code><a href="homeless-services.html" target="_blank">homeless-services.html</a></code>
+  employmentServices: <code><a href="employment-services.html" target="_blank">employment-services.html</a></code>
+  resources: <code><a href="resources.html" target="_blank">resources.html</a></code>
+  espanol: <code><a href="espanol.html" target="_blank">espanol.html</a></code>
+  getInvolved: <code><a href="get-involved.html" target="_blank">get-involved.html</a></code>
+  volunteeer: <code><a href="volunteeer.html" target="_blank">volunteeer.html</a></code>
+  donate: <code><a href="donate.html" target="_blank">donate.html</a></code>
+  participate: <code><a href="participate.html" target="_blank">participate.html</a></code>
+  changeLog: <code><a href="changelog.html" target="_blank">changelog.html</a></code>
+  siteMap: <code><a href="site-map.html" target="_blank">site-map.html</a></code>
