@@ -1,12 +1,14 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Laurel Advocay And Referral Services Inc.
+email: 
+  primary: alden.curnutt@outlook.com
+  secondary: lwellford@laureladvocacy.org
 author: Alden J. Curnutt
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://www.laureladvocacy.org" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -25,7 +27,7 @@ getHelp: <a class="link" href="get-help.html"></a>
 getInvolved: <a class="link" href="get-involved.html"></a>
 
 # Site Links
-links:
+cl:
   index: <code><a href="index.html" target="_blank">index.html</a></code>
   about: <code><a href="about.html" target="_blank">about.html</a></code>
   whateWeDo: <code><a href="what-we-do.html" target="_blank">what-we-do.html</a></code>
