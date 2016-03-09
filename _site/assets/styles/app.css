@@ -890,17 +890,15 @@ ul.ul-faq li:before {
 .read-less { height: 100%; }
 .show { border-top: 1px solid #CFCBCC; }
 .show:hover { color: #EF7011; }
-.new-new:before {
-	content: "New!";
-	padding: 2px 7px 1px;
-	margin-right: 10px;
-	background-color: #EF7011;
-	background: -webkit-linear-gradient(top, #EF7011, #E65520);
-	background: -moz-linear-gradient(top, #EF7011, #E65520);
-	background: -o-linear-gradient(top, #EF7011, #E65520);
-	background: linear-gradient(to bottom, #EF7011, #E65520);
-	border-radius: 5px;
-	color: #EEE;
+.new-o:before {
+	content: "\f006";
+	font-family: "FontAwesome";
+	padding: 4px 5px 4px;
+	margin: 0 10px 0 0;
+	background-color: #E44A2B;
+	color: #FFF;
+	border-radius: 3px;
+	
 	text-decoration: none;
 }
 
