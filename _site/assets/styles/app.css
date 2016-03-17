@@ -872,14 +872,32 @@ ul.ul-faq li:before {
 	border-radius: 100%;
 	border: 2px solid #0072C6;
 }
+.bio {
+	padding: 0 0 12px 0;
+}
 .bio-hid {
-
-	height: 8rem;
+	position: relative;
+	height: 10rem;
 	overflow: hidden;
+}
+.show-bio {
+	border-top: 1px solid #C9C6C6;
+	position: absolute;
+	height: 24px;
+	bottom: 0;
+	margin: 0 !important;
+	width: 100%;
+	background-color: #FFFAFA;
+	color: #A8A6A6;
+	font-size: .75rem;
+	line-height: 1rem;
 }
 .show-bio:hover {
 	color: #0072C6;
+	border-top: 1px solid #0072C6;
+
 }
+
 
 
 /*   Panel Def: Press Show More / Less   */

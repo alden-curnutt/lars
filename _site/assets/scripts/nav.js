@@ -53,7 +53,7 @@ nav = {
 
 	showbio: function() {
 		$('.show-bio').on('click', function() {
-			$(this).siblings('.bio').toggleClass('bio-hid', 'bio-all');
+			$(this).parent('.bio').toggleClass('bio-hid', 'bio-all');
 			if ( $(this).text() === 'Read More' ) {
 				$(this).text('Read Less');
 			}
