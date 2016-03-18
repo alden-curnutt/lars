@@ -1,0 +1,435 @@
+/*\
+|*|  Body Content
+\*/
+#page-content-wrap {
+	position: relative;
+	z-index: 500;
+}
+.body-content {
+	margin-top: 40px;
+	color: #444;
+}
+
+/*   General Classes   */
+.orange {
+	color: #EF7011;
+}
+.green {
+	color: #7EA62C;
+}
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+.margin-bottom-40 {
+	margin-bottom: 20px;
+}
+.margin-top-20 {
+	margin-top: 20px;
+}
+.margin-top-40 {
+	margin-top: 40px;
+}
+
+/*   Panel Def: Panel Elements   */
+.panel, .panel-transparent {
+	margin: 10px 0;
+	padding: 5px 10px;
+	position: relative;
+	font-size: 1rem;
+	text-align: center;
+}
+.panel {
+	background-color: #FFFAFA;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	
+}
+.panel .panel {
+	margin: -5px -20px -5px -10px;
+	box-shadow: none;
+}
+
+.row-full-width {
+	background-color: #FFF;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.row-full-width .col-full-width {
+	padding: 10px 10px;
+}
+.row-full-width .panel {
+	box-shadow: none;
+}
+
+.panel a {
+	color: #337AB7;
+	border-bottom: 1px solid;
+	border-bottom-style: dashed;
+	text-decoration: none;
+}
+.panel a:hover {
+	color: #296191;
+	border-bottom: 1px solid;
+}
+.panel a.img {
+	border: none;
+}
+
+.panel a.link {
+	position: absolute;
+	right: 10px;
+	text-decoration: none;
+	border: none;
+	text-transform: uppercase;
+	font-size: .80rem;
+	cursor: pointer;
+}
+.panel h3 {
+	margin: 12px 0 8px 0;
+	padding: 0 0 8px 0;
+	text-align: left;
+}
+.panel-transparent h3 {
+	margin: 0 0 15px 0;
+	text-align: left;
+}
+.panel-transparent ul {
+	text-align: left;
+}
+.panel p, .panel-transparent p {
+	margin: 0 0 1rem 0;
+	line-height: 1.4em;
+	text-align: left;
+}
+.panel a.cta {
+	display: inline-block;
+	margin: 0 0 10px 0;
+	padding: 5px 15px;
+	border-radius: 3px;
+	color: #FFF;
+	cursor: pointer;
+}
+.panel a.cta:hover {
+	
+}
+
+.panel ul {
+	text-align: left;
+}
+
+.panel-blue .link { color: #0072C6; }
+.panel-blue .link:after { content: "About • LARS" }
+.panel-blue h3 { border-bottom: 3px solid #0072C6; }
+.panel-blue a.cta { background-color: #0072C6; border: 1px solid #0072C6; }
+
+.panel-orange {
+
+}
+.panel-orange .link { color: #E44A2B; }
+.panel-orange .link:after { content: "Events • LARS" }
+.panel-orange h3 { border-bottom: 3px solid #E44A2B; }
+.panel-orange a.cta { background-color: #E44A2B; border: 1px solid #E44A2B; }
+
+.panel-purple {
+
+}
+.panel-purple .link { color: #3E037A; }
+.panel-purple .link:after { content: "Get Help • LARS" }
+.panel-purple h3 { border-bottom: 3px solid #3E037A; }
+.panel-purple a.cta { background-color: #3E037A; border: 1px solid #3E037A; }
+
+.panel-green {
+
+}
+.panel-green .link { color: #429909; }
+.panel-green .link:after { content: "Get Involved • LARS" }
+.panel-green h3 { border-bottom: 3px solid #429909; }
+.panel-green a.cta { background-color: #429909; border: 1px solid #429909; }
+
+
+
+
+
+
+/*
+.body-content h2, h3, h4, h5 {
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+*/
+.body-content p {
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+/*   Panel Def: -Dropshadow  */
+.transparent-padding {
+	padding: 15px;
+}
+.panel-bone-padding {
+	background-color: #FCF9EA;
+	padding: 15px;
+	border-radius: 3px;
+	margin-bottom: 40px;
+}
+.panel-white-padding {
+	background-color: #FFF;
+	padding: 15px;
+	margin-bottom: 40px;
+}
+
+/*   Panel Def: +Dropshadow   */
+.body-content .panel-white {
+	display: block;
+	margin-bottom: 40px;
+	background-color: #FFF;
+	padding: 15px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+	box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+}
+.body-content .panel-bone {
+	display: block;
+	margin-bottom: 40px;
+	background-color: #FBF7F8;
+	padding: 15px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+	box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+}
+
+/*   Panel Def: Images   */
+.panel-img-side {
+	text-align: center !important;
+}
+.panel-img-side img {
+	width: 100%;
+	height: auto;
+}
+
+/*   Panel Def: Panel Lists   */
+ul.ul-standard {
+	padding-left: 40px;
+	list-style: disc;
+}
+ul.ul-standard li {
+	line-height: 1.5em;
+	margin-bottom: 15px;
+}
+ul.ul-modified {
+	padding-left: 40px;
+	list-style: none;
+}
+ul.ul-modified li {
+	line-height: 1.5em;
+	margin-bottom: 15px;
+}
+ul.ul-faq {
+	padding-left: 30px;
+	list-style: none;
+}
+ul.ul-faq li {
+	line-height: 1.5em;
+	margin: -10px 0 15px;
+
+}
+ul.ul-faq li:before {
+	font-weight: bold;
+
+	content: "A: ";
+}
+
+/*   Panel Def: Anchors   */
+.body-content a {
+	color: #638223;
+	text-decoration: underline;
+}
+.body-content a:hover {
+	color: #7EA62C;
+	text-decoration: underline;
+}
+
+/*   Panel Def: Full Width Mood   */
+.full-width-mood {
+	margin: 20px 0;
+	padding: 10px 0;	
+	text-align: center;
+}
+.full-width-blue { background-color: #C9E4F2; }
+.full-width-blue * { color: #0072C6; }
+
+.full-width-orange { background-color: #FAD8C1; }
+.full-width-orange * { color: #E44A2B; }
+
+.full-width-purple { background-color: #E7CFFC; }
+.full-width-purple * { color: #3E037A; }
+
+.full-width-green { background-color: #DDFFD1; }
+.full-width-green * { color: #429909; 
+}
+
+
+
+
+
+
+
+/*   Panel Def: Staff / Board Profiles   */
+.profile-img-container {
+	height: 100%;
+	text-align: center !important;
+}
+.profile {
+	display: block;
+}
+.profile h3 {
+	
+}
+.profile p.position {
+	border-bottom: 2px solid #0072C6;
+}
+.profile img {
+	text-align: center !important;
+	margin: 10px 20px 10px 0;
+	border-radius: 100%;
+	border: 2px solid #0072C6;
+}
+.bio {
+	padding: 0 0 12px 0;
+}
+.bio-hid {
+	position: relative;
+	height: 10rem;
+	overflow: hidden;
+}
+.show-bio {
+	border-top: 1px solid #C9C6C6;
+	position: absolute;
+	height: 24px;
+	bottom: 0;
+	margin: 0 !important;
+	width: 100%;
+	background-color: #FFFAFA;
+	color: #A8A6A6;
+	font-size: .75rem;
+	line-height: 1rem;
+}
+.show-bio:hover {
+	color: #0072C6;
+	border-top: 1px solid #0072C6;
+
+}
+
+
+
+/*   Panel Def: Press Show More / Less   */
+.read-more {
+	height: 4.5em;
+	overflow: hidden;
+}
+.read-less { height: 100%; }
+.show { border-top: 1px solid #CFCBCC; }
+.show:hover { color: #EF7011; }
+.new-o:before {
+	content: "\f006";
+	font-family: "FontAwesome";
+	padding: 4px 5px 4px;
+	margin: 0 10px 0 0;
+	background-color: #E44A2B;
+	color: #FFF;
+	border-radius: 3px;
+	
+	text-decoration: none;
+}
+
+/*   Panel Def: Contact: Mail Chimp Input   */
+#mce-EMAIL {
+	height: 35px;
+	width: 75%;
+	padding-left: 5px;
+	border: 1px solid green;
+}
+#mc-embedded-subscribe {
+	border: none;
+	margin-top: 20px;
+	padding: 5px 15px;
+	color: #EEE;
+	font-size: 20px;
+	background-color: #0072C6;
+	background: -webkit-linear-gradient(top, #0072C6, #005B9E);
+	background: -moz-linear-gradient(top, #0072C6, #005B9E);
+	background: -o-linear-gradient(top, #0072C6, #005B9E);
+	background: linear-gradient(to bottom, #0072C6, #005B9E);
+	border-radius: 3px;
+	cursor: pointer;
+}
+#mc-embedded-subscribe:hover {
+
+}
+
+/*  Panel Def: Contact Forms   */
+ul.ul-contact {
+	margin-bottom: 5px;
+	padding: 0 15px
+}
+ul.ul-contact .title {
+	background-color: #EF7011;
+	background: -webkit-linear-gradient(top, #EF7011, #E65520);
+	background: -moz-linear-gradient(top, #EF7011, #E65520);
+	background: -o-linear-gradient(top, #EF7011, #E65520);
+	background: linear-gradient(to bottom, #EF7011, #E65520);
+	border-radius: 5px;
+	padding: 0 0 0 10px;
+	font-size: 25px;
+	color: #EEE;
+}
+ul.ul-contact .title:hover {
+	background-color: #E65520;
+	background: -webkit-linear-gradient(top, #E65520, #EF7011);
+	background: -moz-linear-gradient(top, #E65520, #EF7011);
+	background: -o-linear-gradient(top, #E65520, #EF7011);
+	background: linear-gradient(to bottom, #E65520, #EF7011);
+}
+.plus:after {
+	content: ' +';
+	font-weight: bold;
+}
+.minus:after {
+	content: ' -';
+}
+ul.ul-contact .body {
+	display: none;
+	padding: 10px 0 10px 0;
+}
+iframe.contact {
+	min-height: 900px;
+	width: 100%;
+}
+iframe.developer {
+	min-height: 1100px;
+	width: 100%;	
+}
+iframe.volunteer {
+	width: 100%;
+	min-height: 1300px;
+}
+iframe.donate {
+	width: 100%;
+	min-height: 1300px
+}
+
+/*   Panel Def: Contact: Social   */
+.social {
+	text-align: center;
+}
+
+/*  Panel Def: Quotes   */
+.quotes {
+	background-image: url('../images/images/open-quote.png'), url('../images/images/close-quote.png');
+	background-repeat: no-repeat;
+	background-position: top left, right bottom;
+}
+.quotes div {
+	padding: 10px 0 20px 40px;
+}

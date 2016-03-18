@@ -1,0 +1,99 @@
+/*\
+|*|  In Page Navigation
+\*/
+.nav-inpage .nav-inpage-title {
+	font-weight: bold;
+	
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border: 0px;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+}
+
+.nav-inpage ul {
+	list-style: none;
+	background-color: #FFFAFA;
+	/*padding: 15px;*/
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+	box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.4);
+}
+.nav-inpage li {
+	padding: 15px;
+	font-size: 1rem;
+}
+
+/*   In Page Nav Title   */
+
+.nav-inpage .nav-inpage-title a {
+	color: #EEE !important;
+	text-decoration: none !important;
+}
+.nav-inpage .nav-inpage-title:hover {
+	border: none;
+	padding-left: 15px;
+}
+
+
+/*   In Page Nav Links   */
+.nav-inpage li {
+	border-top: 1px solid grey;
+	border-left: 3px solid transparent;
+}
+.nav-inpage li:hover {
+	
+	border-left: 3px solid transparent;
+	padding-left: 30px;
+}
+
+
+/*  In Page Nav Colors  */
+.nav-inpage-blue li:hover {
+	border-left: 3px solid #0072C6;
+	padding-left: 30px;
+}
+.nav-inpage-orange li:hover {
+	border-left: 3px solid #E44A2B;
+	padding-left: 30px;
+}
+.nav-inpage-purple li:hover {
+	border-left: 3px solid #3E037A;
+	padding-left: 30px;
+}
+.nav-inpage-green li:hover {
+	border-left: 3px solid #429909;
+	padding-left: 30px;
+}
+
+.nav-inpage a {
+	display: block;
+	color: #333 !important;
+	text-decoration: none !important;
+}
+
+/*   In Page Nav Selected   */
+.nav-inpage .nav-inpage-selected { padding-left: 30px; }
+.nav-inpage-blue .nav-inpage-selected {
+	border-left: 3px solid #0072C6;
+	background-color: #C9E4F2;
+}
+.nav-inpage-blue .nav-inpage-selected a { color: #0072C6 !important; }
+
+.nav-inpage-orange .nav-inpage-selected {
+	border-left: 3px solid #E44A2B;
+	background-color: #FAD8C1;
+}
+.nav-inpage-orange .nav-inpage-selected a { color: #E44A2B !important; }
+
+.nav-inpage-purple .nav-inpage-selected {
+	border-left: 3px solid #3E037A;
+	background-color: #E7CFFC;
+}
+.nav-inpage-purple .nav-inpage-selected a { color: #3E037A !important; }
+
+.nav-inpage-green .nav-inpage-selected {
+	border-left: 3px solid #429909;
+	background-color: #DDFFD1;
+}
+.nav-inpage-green .nav-inpage-selected a { color: #429909 !important; }

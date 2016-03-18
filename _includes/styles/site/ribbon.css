@@ -1,0 +1,30 @@
+/*\
+|*|  Ribbon Notice
+\*/
+.ribbon {
+	text-align: center;
+}
+.ribbon p {
+	display: inline-block;
+	padding: 7px 0;
+	color: #EEE;
+}
+.ribbon a {
+	margin-left: 5px;
+	padding: 0 5px;
+	border-radius: 3px;
+	border: 1px solid #EEE;
+	color: #EEE;
+}
+.ribbon a:hover {
+	background-color: #EEE;
+	color: #0072C6;
+}
+
+.ribbon-orange {
+	background-color: #7EA62C;
+	background: -webkit-linear-gradient(top, #7EA62C, #638223);
+	background: -moz-linear-gradient(top, #7EA62C, #638223);
+	background: -o-linear-gradient(top, #7EA62C, #638223);
+	background: linear-gradient(to bottom, #7EA62C, #638223);
+}

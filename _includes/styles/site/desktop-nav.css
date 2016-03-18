@@ -1,0 +1,124 @@
+/*\
+|*|  Desktop Nav Styles
+\*/
+#desktop-nav {
+	padding: 5px 0 0 0;
+	background-color: #FFFAFA;
+	background-position: cover;
+	border-radius: 2px solid #F5F4DD;
+	-webkit-box-shadow: 0px 1px 15px 2px rgba(38,26,18,0.5);
+	-moz-box-shadow: 0px 1px 15px 2px rgba(038,26,18,0.5);
+	box-shadow: 0px 1px 15px 2px rgba(038,26,18,0.5);
+}
+#desktop-nav #top-shelf {
+	height: 35px;
+	padding: 10px 10px 0 10px;
+}
+#desktop-nav #top-shelf {
+	padding-top: 5px;
+}
+#desktop-nav .split {
+	padding: 0 20px;
+}
+#action-ul i {
+	margin: -3px 20px 0 0;
+}
+
+/*   Super Navigation Items   */
+#action-ul {
+	list-style: none;
+}
+#action-ul li {
+	float: right;
+	font-size: 16px;
+}
+#action-ul .action {
+
+
+	border: 1px solid #638223;
+	padding: 5px 20px;
+	color: #eee;
+	border-radius: 3px;
+}
+#action-ul .action:hover {
+
+	color: #FFF;
+}
+
+/*   Title & Dropdowns   */
+#desktop-nav #nav-full {  }
+#desktop-nav h3 {
+	display: inline-block;
+	position: relative;
+	top: -7px;
+}
+#desktop-nav img {
+	height: 30px;
+	width: auto;
+}
+#parent-ul, #parent-ul ul {
+	list-style: none;
+	margin-left: -20px;
+}
+#parent-ul > li {
+	float: left;
+	margin-right: 10px;
+	padding: 10px 18px 5px 20px;
+}
+#parent-ul > li:hover {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+#parent-ul li:hover ul {
+	-webkit-box-shadow: 3px 6px 7px 3px rgba(38,26,18,04);
+	-moz-box-shadow: 3px 6px 7px 3px rgba(38,26,18,0.4);
+	box-shadow: 3px 6px 7px 3px rgba(38,26,18,0.4);
+}
+
+/*  Color Specific Styles  */
+#parent-ul > li.lars-home:hover { background-color: #0072C6 !important; }
+#parent-ul > li.lars-contact:hover { background-color: #0072C6 !important; }
+
+#parent-ul > li.lars-blue:hover { background-color: #0072C6 !important; }
+#parent-ul li.lars-blue:hover ul { border-bottom: 5px solid #0072C6; }
+#nav-full li.lars-blue ul li:hover { background-color: #0072C6; }
+
+#parent-ul > li.lars-orange:hover { background-color: #E44A2B !important; }
+#parent-ul li.lars-orange:hover ul { border-bottom: 5px solid #E44A2B; }
+#nav-full li.lars-orange ul li:hover { background-color: #E44A2B; }
+
+#parent-ul > li.lars-purple:hover { background-color: #3E037A !important; }
+#parent-ul li.lars-purple:hover ul { border-bottom: 5px solid #3E037A; }
+#nav-full li.lars-purple ul li:hover { background-color: #3E037A; }
+
+#parent-ul > li.lars-green:hover { background-color: #429909 !important; }
+#parent-ul li.lars-green:hover ul { border-bottom: 5px solid #429909; }
+#nav-full li.lars-green ul li:hover { background-color: #429909; }
+#parent-ul li:hover i { color: #EEE; }
+
+#desktop-nav #nav-full ul li:hover {  }
+#desktop-nav #nav-full ul li a {
+	display: block;
+}
+#desktop-nav #nav-full ul li:hover > a {
+	color: #FFF;
+}
+#desktop-nav #parent-ul ul {
+	position: absolute;
+	margin: 5px 0 0 -20px;
+	z-index: 100;
+	display: none;
+	max-width: 250px;
+	min-width: 200px;
+}
+#parent-ul ul li {
+	background-color: #FFF;
+	width: 100%;
+	padding: 7px 10px;
+}
+#parent-ul ul li:not(:last-child) {
+	border-bottom: 1px solid #DDD;
+}
+#desktop-nav #nav-full ul li:hover ul {
+	display: table-cell;
+}
