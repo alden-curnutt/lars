@@ -1,0 +1,25 @@
+---
+layout: article-support
+
+friendly-location: Article Index
+location: article-index.html
+
+title: Laurel Advocacy & Referral Services, Inc - Articles about LARS and what we have going on
+description: LARS, Inc. - Read about LARS, Inc. events, announcements and more through our unique articles!
+---
+
+<div class="content">
+
+
+	<p class="article-title">Article Index</p>
+	<ul id="article-list">
+		{% for post in site.posts %}
+			<li class="clearfix">
+				<a href="{{ post.url }}">{{ post.title }}</a><br class="hidden-md hidden-lg">
+				<span class="article-data">{{ post.date | date_to_string }}</span>
+				<span class="article-data">{{ post.author }}&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			</li>
+		{% endfor %}
+	</ul>
+			
+</div>

@@ -10,22 +10,18 @@
 	<div id="breadcrumb-nav" class="row clearfix">
 		<div class="col-xs-12">
 			<div class="panel">
-				<a href="/index.html">Home</a> / <a href="/article-index.html">Article Index</a> / <a href="#" class="tcap">{{ page.category[0] }}</a>
+				<a href="/index.html">Home</a> / <a href="/{{ page.location }}">{{ page.friendly-location }}</a> / <a href="#" class="tcap">{{ page.category[0] }}</a>
 			</div>
 		</div>
 	</div>
 
 	<div class="content">
-
+		<div id="description" style="display: none;">{{ page.description }}</div>
+		
 		<div class="row clearfix">
 			<div id="article-content" class="col-xs-12 col-sm-8 col-md-9">
 				<div class="panel">
-					<div id="article-meta">
-						<span class="cat">{{ page.category[0] }}</span>
-						<span class="author">by <span class="b lars-blue">{{ page.author }}</span></span>
-						<span class="timestamp">on {{ page.date | date: '%B %d, %Y' }}</span>
-					</div>
-					
+
 					{{ content }}
 
 				</div>

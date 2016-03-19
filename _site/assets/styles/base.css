@@ -290,6 +290,7 @@ ul li { line-height: 1.5em;  }
 .tright { text-align: right; }
 .tupper { text-transform: uppercase; }
 .tlower { text-transform: lowercase; }
+.tcap { text-transform: capitalize; }
 .tnormal { text-transform: none; }
 .ttop { text-align: top; }
 .tmiddle { text-align: middle; }

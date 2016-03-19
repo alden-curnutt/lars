@@ -1,0 +1,37 @@
+/*\
+|*|  Footer Styles
+\*/
+
+footer {
+    
+    width:100%;
+    
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+/*   Developer Note   */
+#fancy {
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 4px 0;
+    background-color: #0072C6;
+    text-align: center;
+}
+#fancy a {
+	color: #EEE;
+}
+
+ /*   Footer Content   */
+footer {
+	margin: 10px 0 0 0 ;
+	background-color: #FFFAFA;
+    
+    text-align: center;
+    -webkit-box-shadow: inset 0px 5px 7px rgba(38,26,18,0.5);
+    -moz-box-shadow: inset 0px 5px 7px rgba(38,26,18,0.5);
+    box-shadow: inset 0px 5px 7px rgba(38,26,18,0.5);
+}
+footer p {
+    padding: 0 0 5px 0;
+}
