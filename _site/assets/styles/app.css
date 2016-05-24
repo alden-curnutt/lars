@@ -1021,8 +1021,8 @@ iframe.donate {
  /*   Footer Content   */
 footer {
 	margin: 30px 0 0 0 ;
-	background-color: #FFFAFA;
-    
+    background-image: url('../images/images/NavGeoMetric.png');
+    background-color: #FFFAFA;
     text-align: center;
     -webkit-box-shadow: inset 0px 5px 7px rgba(38,26,18,0.5);
     -moz-box-shadow: inset 0px 5px 7px rgba(38,26,18,0.5);
