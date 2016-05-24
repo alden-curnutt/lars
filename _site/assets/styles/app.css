@@ -598,6 +598,7 @@ body {
 .margin-top-40 {
 	margin-top: 40px;
 }
+span.new-new { padding: 0 5px 0 0; color: #E44A2B; }
 
 /*   Panel Def: Panel Elements   */
 .panel, .panel-transparent {
@@ -611,13 +612,11 @@ body {
 	background-color: #FFFAFA;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-	
 }
 .panel .panel {
 	margin: -5px -20px -5px -10px;
 	box-shadow: none;
 }
-
 .row-full-width {
 	background-color: #FFF;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
@@ -628,7 +627,6 @@ body {
 .row-full-width .panel {
 	box-shadow: none;
 }
-
 .panel a {
 	color: #337AB7;
 	border-bottom: 1px solid;
@@ -642,7 +640,6 @@ body {
 .panel a.img {
 	border: none;
 }
-
 .panel a.link {
 	position: absolute;
 	right: 10px;
@@ -680,51 +677,34 @@ body {
 .panel a.cta:hover {
 	
 }
-
 .panel ul {
 	text-align: left;
 }
 
+.panel-blue span.new-new { color: #0072C6 !important; }
 .panel-blue .link { color: #0072C6; }
 .panel-blue .link:after { content: "About • LARS" }
 .panel-blue h3 { border-bottom: 3px solid #0072C6; }
 .panel-blue a.cta { background-color: #0072C6; border: 1px solid #0072C6; }
 
-.panel-orange {
-
-}
+.panel-orange span.new-new { color: #E44A2B !important; }
 .panel-orange .link { color: #E44A2B; }
 .panel-orange .link:after { content: "Events • LARS" }
 .panel-orange h3 { border-bottom: 3px solid #E44A2B; }
 .panel-orange a.cta { background-color: #E44A2B; border: 1px solid #E44A2B; }
 
-.panel-purple {
-
-}
+.panel-purple span.new-new { color: #3E037A !important; }
 .panel-purple .link { color: #3E037A; }
 .panel-purple .link:after { content: "Get Help • LARS" }
 .panel-purple h3 { border-bottom: 3px solid #3E037A; }
 .panel-purple a.cta { background-color: #3E037A; border: 1px solid #3E037A; }
 
-.panel-green {
-
-}
+.panel-green span.new-new { color: #429909 !important; }
 .panel-green .link { color: #429909; }
 .panel-green .link:after { content: "Get Involved • LARS" }
 .panel-green h3 { border-bottom: 3px solid #429909; }
 .panel-green a.cta { background-color: #429909; border: 1px solid #429909; }
 
-
-
-
-
-
-/*
-.body-content h2, h3, h4, h5 {
-	margin-bottom: 20px;
-	padding-top: 10px;
-}
-*/
 .body-content p {
 	margin-bottom: 15px;
 	line-height: 1.5em;
@@ -900,6 +880,9 @@ ul.ul-faq li:before {
 .read-less { height: 100%; }
 .show { border-top: 1px solid #CFCBCC; }
 .show:hover { color: #EF7011; }
+
+
+/*REMOVE*/
 .new-o:before {
 	content: "\f006";
 	font-family: "FontAwesome";
