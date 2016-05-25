@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	pace();
+	nav.scrollSpy();
 	nav.mobile();
 	nav.readmore();
 	nav.showbio();
@@ -16,6 +17,19 @@ function pace() {
 }
 
 nav = {
+
+	scrollSpy: function() {
+		window.addEventListener('scroll', function(e) {
+			var distanceFromTop = window.pageYOffset;
+			//console.log(distanceFromTop);
+			if ( distanceFromTop > 300 ) {
+				$('#top-shelf').addClass('scrollSpy-shrink');
+			}
+			else {
+				$('#top-shelf').removeClass('scrollSpy-shrink');	
+			}
+		});
+	}, // End Scroll Spy
 
 	mobile: function() {
 		$('#mobile-toggle').on('click', function() {

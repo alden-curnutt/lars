@@ -3,6 +3,7 @@
 \*/
 #page-content-wrap {
 	position: relative;
+	padding-top: 74px;
 	z-index: 500;
 }
 .body-content {
