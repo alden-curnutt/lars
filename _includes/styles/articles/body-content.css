@@ -484,6 +484,11 @@ iframe.donate {
 	font-size: .8rem;
 }
 
+/*  Article Content Footer  */
+#article-meta-footer {
+	text-align: right;
+}
+
 
 /*\
 |*|  Article Categories
