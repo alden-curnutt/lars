@@ -276,10 +276,10 @@ ul.ul-faq li:before {
 	border-bottom: 2px solid #0072C6;
 }
 .profile img {
+	
 	margin: 10px 20px 10px 0;
 	text-align: center !important;
 	border-radius: 100%;
-	border: 2px solid #0072C6;
 }
 .bio {
 	padding: 0 0 12px 0;
