@@ -6,6 +6,7 @@
 	padding-top: 74px;
 	z-index: 500;
 }
+#page-content-wrap.ribbon-page { padding-top: 104px; }
 .body-content {
 	margin-top: 40px;
 	color: #444;
@@ -82,7 +83,7 @@ span.new-new { padding: 0 5px 0 0; color: #E44A2B; }
 	cursor: pointer;
 }
 .panel h3 {
-	margin: 12px 0 8px 0;
+	margin: 16px 0 8px 0;
 	padding: 0 0 8px 0;
 	text-align: left;
 }

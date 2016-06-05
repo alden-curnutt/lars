@@ -91,8 +91,9 @@ body {
 |*|  Ribbon Notice
 \*/
 .ribbon {
+	width: 100%;
 	text-align: center;
-	position: absolute;
+	position: fixed;
 	z-index: 10000;
 	top: 0;
 }
@@ -211,6 +212,7 @@ body {
 }
 
 /*  Color Specific Styles  */
+
 #parent-ul > li.lars-home:hover { background-color: #0072C6 !important; }
 #parent-ul > li.lars-contact:hover { background-color: #0072C6 !important; }
 
@@ -229,7 +231,24 @@ body {
 #parent-ul > li.lars-green:hover { background-color: #429909 !important; }
 #parent-ul li.lars-green:hover ul { border-bottom: 5px solid #429909; }
 #nav-full li.lars-green ul li:hover { background-color: #429909; }
+
 #parent-ul li:hover i { color: #EEE; }
+#parent-ul i { width: 20px; }
+
+#parent-ul li i.lars-blue.hover-on,
+#parent-ul li i.lars-orange.hover-on,
+#parent-ul li i.lars-purple.hover-on,
+#parent-ul li i.lars-green.hover-on { display: none; }
+
+#parent-ul li:hover i.lars-blue.hover-off,
+#parent-ul li:hover i.lars-orange.hover-off,
+#parent-ul li:hover i.lars-purple.hover-off,
+#parent-ul li:hover i.lars-green.hover-off { display: none; }
+
+#parent-ul li:hover i.lars-blue.hover-on,
+#parent-ul li:hover i.lars-orange.hover-on,
+#parent-ul li:hover i.lars-purple.hover-on,
+#parent-ul li:hover i.lars-green.hover-on { display: inline-block; color: #EEE; }
 
 #desktop-nav #nav-full ul li:hover {  }
 #desktop-nav #nav-full ul li a {
@@ -590,6 +609,7 @@ body {
 	padding-top: 74px;
 	z-index: 500;
 }
+#page-content-wrap.ribbon-page { padding-top: 104px; }
 .body-content {
 	margin-top: 40px;
 	color: #444;
@@ -666,7 +686,7 @@ span.new-new { padding: 0 5px 0 0; color: #E44A2B; }
 	cursor: pointer;
 }
 .panel h3 {
-	margin: 12px 0 8px 0;
+	margin: 16px 0 8px 0;
 	padding: 0 0 8px 0;
 	text-align: left;
 }

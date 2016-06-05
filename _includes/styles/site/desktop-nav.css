@@ -88,6 +88,7 @@
 }
 
 /*  Color Specific Styles  */
+
 #parent-ul > li.lars-home:hover { background-color: #0072C6 !important; }
 #parent-ul > li.lars-contact:hover { background-color: #0072C6 !important; }
 
@@ -106,7 +107,24 @@
 #parent-ul > li.lars-green:hover { background-color: #429909 !important; }
 #parent-ul li.lars-green:hover ul { border-bottom: 5px solid #429909; }
 #nav-full li.lars-green ul li:hover { background-color: #429909; }
+
 #parent-ul li:hover i { color: #EEE; }
+#parent-ul i { width: 20px; }
+
+#parent-ul li i.lars-blue.hover-on,
+#parent-ul li i.lars-orange.hover-on,
+#parent-ul li i.lars-purple.hover-on,
+#parent-ul li i.lars-green.hover-on { display: none; }
+
+#parent-ul li:hover i.lars-blue.hover-off,
+#parent-ul li:hover i.lars-orange.hover-off,
+#parent-ul li:hover i.lars-purple.hover-off,
+#parent-ul li:hover i.lars-green.hover-off { display: none; }
+
+#parent-ul li:hover i.lars-blue.hover-on,
+#parent-ul li:hover i.lars-orange.hover-on,
+#parent-ul li:hover i.lars-purple.hover-on,
+#parent-ul li:hover i.lars-green.hover-on { display: inline-block; color: #EEE; }
 
 #desktop-nav #nav-full ul li:hover {  }
 #desktop-nav #nav-full ul li a {
