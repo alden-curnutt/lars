@@ -18,16 +18,28 @@ function pace() {
 
 nav = {
 
-	scrollSpy: function() {
+	scrollSpy: function() { // Manage page scrolling for navigation effects
 		window.addEventListener('scroll', function(e) {
 			var distanceFromTop = window.pageYOffset;
 			//console.log(distanceFromTop);
 			if ( distanceFromTop > 300 ) {
 				$('#top-shelf').addClass('scrollSpy-shrink');
+				$('#to-top-slideout').addClass('to-top-slideout');
 			}
 			else {
 				$('#top-shelf').removeClass('scrollSpy-shrink');	
+				$('#to-top-slideout').removeClass('to-top-slideout');
 			}
+
+			$('#to-top-slideout').on('click', function() {
+				var page = $("html, body");
+				$('body').animate({
+			        scrollTop: 0
+			    }, 300);
+			    page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
+		           page.stop();
+		       });
+			});
 		});
 	}, // End Scroll Spy
 
@@ -88,7 +100,6 @@ nav = {
 				target.children('.title').addClass('minus');
 			}
 		});
-	} // Ebd contact method
-
+	}, // Ebd contact method
 }
 
