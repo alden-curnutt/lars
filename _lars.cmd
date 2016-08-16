@@ -1,9 +1,6 @@
 @echo off
 REM Spin up test site
 
-REM Prep _site by running Prepros
-start N:\Programs\Prepros\Prepros.exe
-
-cd N:\Sites\LARS
+cd C:\Users\lwellford\Desktop\sites\lars
 jekyll serve --watch
 
