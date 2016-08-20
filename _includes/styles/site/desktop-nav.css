@@ -1,5 +1,6 @@
 /*\
 |*|  Desktop Nav Styles
+|*|  desktop-nav.css
 \*/
 #desktop-nav {
 	position: fixed;
@@ -18,14 +19,11 @@
 	height: 35px;
 	padding: 10px 10px 0 10px;
 }
-
 #desktop-nav #top-shelf.scrollSpy-shrink {
 	height: 0px;
 	margin-top: -37px;
 	padding: 0;
 }
-
-
 #desktop-nav #top-shelf {
 	padding-top: 5px;
 }
@@ -45,15 +43,12 @@
 	font-size: 16px;
 }
 #action-ul .action {
-
-
 	border: 1px solid #638223;
 	padding: 5px 20px;
 	color: #eee;
 	border-radius: 3px;
 }
 #action-ul .action:hover {
-
 	color: #FFF;
 }
 
@@ -88,7 +83,6 @@
 }
 
 /*  Color Specific Styles  */
-
 #parent-ul > li.lars-home:hover { background-color: #0072C6 !important; }
 #parent-ul > li.lars-contact:hover { background-color: #0072C6 !important; }
 

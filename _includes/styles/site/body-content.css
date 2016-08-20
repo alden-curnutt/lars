@@ -1,5 +1,6 @@
 /*\
 |*|  Body Content
+|*|  body-content.css
 \*/
 .note {
 	color: #999;
@@ -10,6 +11,32 @@
 	z-index: 500;
 }
 #page-content-wrap.ribbon-page { padding-top: 104px; }
+
+/*  Extra Small  */
+@media all and (max-width: 767px) {
+  .content {
+  	margin-top: -39px;
+  }
+}
+/*  Small  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .content {
+  	margin-top: -39px;
+  }
+}
+/*  Medium  */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .content {
+  	margin-top: 0;
+  }
+}
+/*  Large  */
+@media all and (min-width: 1200px) {
+  .content {
+  	margin-top: 0;
+  }
+}
+
 .body-content {
 	margin-top: 40px;
 	color: #444;

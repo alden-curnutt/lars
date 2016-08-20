@@ -8,6 +8,7 @@
 
 /*\
 |*|  Site Setters
+|*|  site-colors.css
 \*/
 body {
 	background-color: #F1F1F1;
@@ -89,6 +90,7 @@ body {
 
 /*\
 |*|  Ribbon Notice
+|*|  ribbon.css
 \*/
 .ribbon {
 	width: 100%;
@@ -124,6 +126,7 @@ body {
 
 /*\
 |*|  Desktop Nav Styles
+|*|  desktop-nav.css
 \*/
 #desktop-nav {
 	position: fixed;
@@ -142,14 +145,11 @@ body {
 	height: 35px;
 	padding: 10px 10px 0 10px;
 }
-
 #desktop-nav #top-shelf.scrollSpy-shrink {
 	height: 0px;
 	margin-top: -37px;
 	padding: 0;
 }
-
-
 #desktop-nav #top-shelf {
 	padding-top: 5px;
 }
@@ -169,15 +169,12 @@ body {
 	font-size: 16px;
 }
 #action-ul .action {
-
-
 	border: 1px solid #638223;
 	padding: 5px 20px;
 	color: #eee;
 	border-radius: 3px;
 }
 #action-ul .action:hover {
-
 	color: #FFF;
 }
 
@@ -212,7 +209,6 @@ body {
 }
 
 /*  Color Specific Styles  */
-
 #parent-ul > li.lars-home:hover { background-color: #0072C6 !important; }
 #parent-ul > li.lars-contact:hover { background-color: #0072C6 !important; }
 
@@ -279,46 +275,60 @@ body {
 
 /*\
 |*|  Mobile Navigation
+|*|  mobile-nav.css
 \*/
 #mobile-nav {
 	margin-top: -75px;
-	padding: 20px 0 20px;
+	padding: 6px 0;
+	position: fixed;
+	width: 100%;
 	background-color: #FFFAFA;
 	-webkit-box-shadow: 0px 1px 15px 2px rgba(38,26,18,0.5);
 	-moz-box-shadow: 0px 1px 15px 2px rgba(038,26,18,0.5);
 	box-shadow: 0px 1px 15px 2px rgba(038,26,18,0.5);
 	z-index: 500;
 }
-#mobile-nav .btn-donate {
-	margin-bottom: 20px;
-	padding: 5px 0;
+#mobile-nav table {
 	width: 100%;
+}
+#mobile-nav td#donate,
+#mobile-nav td#tog {
+	width: 80px;
+}
+#mobile-nav td#donate {
+	padding: 0 0 0 4px;
+	vertical-align: middle;
+}
+#mobile-nav td#donate a {
+	padding: 3px 0;
 	display: block;
 	border-radius: 3px;
 	text-align: center;
-	font-size: 20px;
+	color: #EEE;
 }
-#mobile-nav .btn-donate a {
-	color: #FFF;
-	display: block;
-}
-#mobile-nav h1 {
-	display: inline-block;
+#mobile-nav td#name a {
 	text-align: center;
+	display: block;
+	font-size: 1.5rem;
+}
+#mobile-nav td#tog {
+	padding: 0 10px 0 0;
+	text-align: right;
+	font-size: 1.5rem;
 }
 
 /*   Mobile Navigation Menu   */
 #mobile-menu {
-	z-index: 500;
+	width: 200px;
+	height: 100%;
 	position: fixed;
 	top: 0;
 	right: -200px;
-	width: 200px;
-	height: 100%;
-	padding: 15px;
-	background-color: #212019;
+	padding: 5px 15px 0 0;
+	background-color: #222;
 	text-align: center;
 	overflow-y: auto;
+	z-index: 500;
 }
 #mobile-menu img {
 	width: 70%;
@@ -329,18 +339,31 @@ body {
 	margin: 0 10px;
 }
 #mobile-menu ul {
+	margin: 10px 0 0 0;
 	list-style: none;
 }
 #mobile-menu li {
-	padding: 10px 0;
-	text-align: center;
-	border-bottom: 1px solid #EEE;
+	padding: 0 0 0 10px;
+	text-align: left;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #111;
 	color: #EEE;
 }
+#mobile-menu li:first-child { border-top: none; }
+#mobile-menu li:last-child { border-bottom: none;}
+
 #mobile-menu a {
 	color: #EEE;
-	font-size: 20px;
+	font-size: 1rem;
 	text-transform: uppercase;
+}
+#mobile-menu li a {
+	padding: 10px 0;
+	display: block;
+	color: #888;
+}
+#mobile-menu li:hover {
+	background-color: #0072C6;
 }
 #mobile-menu a:hover {
 	color: #FFF;
@@ -380,6 +403,7 @@ body {
 
 /*\
 |*|  Home Carousel
+|*|  home-carousel.css
 \*/
 #index-carousel {
 	height: 60vh;
@@ -503,6 +527,7 @@ body {
 
 /*\
 |*|  In Page Navigation
+|*|  in-page-nav.css
 \*/
 .nav-inpage .nav-inpage-title {
 	font-weight: bold;
@@ -603,6 +628,7 @@ body {
 
 /*\
 |*|  Body Content
+|*|  body-content.css
 \*/
 .note {
 	color: #999;
@@ -613,6 +639,32 @@ body {
 	z-index: 500;
 }
 #page-content-wrap.ribbon-page { padding-top: 104px; }
+
+/*  Extra Small  */
+@media all and (max-width: 767px) {
+  .content {
+  	margin-top: -39px;
+  }
+}
+/*  Small  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .content {
+  	margin-top: -39px;
+  }
+}
+/*  Medium  */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .content {
+  	margin-top: 0;
+  }
+}
+/*  Large  */
+@media all and (min-width: 1200px) {
+  .content {
+  	margin-top: 0;
+  }
+}
+
 .body-content {
 	margin-top: 40px;
 	color: #444;
@@ -1081,6 +1133,7 @@ iframe.donate {
 
 /*\
 |*|  Footer Styles
+|*|  footer.css
 \*/
 /*   Developer Note   */
 #fancy {

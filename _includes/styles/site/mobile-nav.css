@@ -1,45 +1,59 @@
 /*\
 |*|  Mobile Navigation
+|*|  mobile-nav.css
 \*/
 #mobile-nav {
 	margin-top: -75px;
-	padding: 20px 0 20px;
+	padding: 6px 0;
+	position: fixed;
+	width: 100%;
 	background-color: #FFFAFA;
 	-webkit-box-shadow: 0px 1px 15px 2px rgba(38,26,18,0.5);
 	-moz-box-shadow: 0px 1px 15px 2px rgba(038,26,18,0.5);
 	box-shadow: 0px 1px 15px 2px rgba(038,26,18,0.5);
 	z-index: 500;
 }
-#mobile-nav .btn-donate {
-	margin-bottom: 20px;
-	padding: 5px 0;
+#mobile-nav table {
 	width: 100%;
+}
+#mobile-nav td#donate,
+#mobile-nav td#tog {
+	width: 80px;
+}
+#mobile-nav td#donate {
+	padding: 0 0 0 4px;
+	vertical-align: middle;
+}
+#mobile-nav td#donate a {
+	padding: 3px 0;
 	display: block;
 	border-radius: 3px;
 	text-align: center;
-	font-size: 20px;
+	color: #EEE;
 }
-#mobile-nav .btn-donate a {
-	color: #FFF;
-	display: block;
-}
-#mobile-nav h1 {
-	display: inline-block;
+#mobile-nav td#name a {
 	text-align: center;
+	display: block;
+	font-size: 1.5rem;
+}
+#mobile-nav td#tog {
+	padding: 0 10px 0 0;
+	text-align: right;
+	font-size: 1.5rem;
 }
 
 /*   Mobile Navigation Menu   */
 #mobile-menu {
-	z-index: 500;
+	width: 200px;
+	height: 100%;
 	position: fixed;
 	top: 0;
 	right: -200px;
-	width: 200px;
-	height: 100%;
-	padding: 15px;
-	background-color: #212019;
+	padding: 5px 15px 0 0;
+	background-color: #222;
 	text-align: center;
 	overflow-y: auto;
+	z-index: 500;
 }
 #mobile-menu img {
 	width: 70%;
@@ -50,18 +64,31 @@
 	margin: 0 10px;
 }
 #mobile-menu ul {
+	margin: 10px 0 0 0;
 	list-style: none;
 }
 #mobile-menu li {
-	padding: 10px 0;
-	text-align: center;
-	border-bottom: 1px solid #EEE;
+	padding: 0 0 0 10px;
+	text-align: left;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #111;
 	color: #EEE;
 }
+#mobile-menu li:first-child { border-top: none; }
+#mobile-menu li:last-child { border-bottom: none;}
+
 #mobile-menu a {
 	color: #EEE;
-	font-size: 20px;
+	font-size: 1rem;
 	text-transform: uppercase;
+}
+#mobile-menu li a {
+	padding: 10px 0;
+	display: block;
+	color: #888;
+}
+#mobile-menu li:hover {
+	background-color: #0072C6;
 }
 #mobile-menu a:hover {
 	color: #FFF;
