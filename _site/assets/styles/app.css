@@ -633,6 +633,15 @@ body {
 .note {
 	color: #999;
 }
+.demo {
+	border: 1px solid #CCC;
+    padding: 5px;
+	display: block;
+    border-radius: 3px;
+    background: #EEE;
+	text-align: left !important;
+    color: #777;
+}
 #page-content-wrap {
 	position: relative;
 	padding-top: 74px;
