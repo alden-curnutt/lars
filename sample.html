@@ -74,6 +74,122 @@ description: LARS, Inc. - Example HTML Code Page
 	</div>
 
 	<div class="row clearfix">
+		<div class="col-xs-12 col-md-4">
+			<div class="panel panel-green">
+				{{ site.getInvolved }}
+				<h3>Thirds Green Panel</h3>
+				<p>These three panels are in the same row. At the smallest width, all three will expand the entire width but at the medium width, they all share a third of the row.</p>
+				<p></p>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4">
+			<div class="panel panel-purple">
+				{{ site.getHelp }}
+				<h3>Thirds Purple Panel</h3>
+				<p>These three panels are in the same row. At the smallest width, all three will expand the entire width but at the medium width, they all share a third of the row.</p>
+				<p></p>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4">
+			<div class="panel panel-blue">
+				{{ site.about }}
+				<h3>Thirds Blue Panel</h3>
+				<p>These three panels are in the same row. At the smallest width, all three will expand the entire width but at the medium width, they all share a third of the row.</p>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="panel">
+				<p>Code for the thirds panel above:</p>
+				<code class="demo">
+
+					&lt;div class="row clearfix"&gt;<br>
+						&nbsp;&nbsp;&lt;div class="col-xs-12 col-md-4"&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="panel panel-green"&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123; site.getInvolved &#125;&#125;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3>Thirds Green Panel&lt;/h3&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>These three panels are in the same row. At the smallest width, all three will expand the entire width but at the medium width, they all share a third of the row.&lt;/p&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>&lt;/p&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+						&nbsp;&nbsp;&lt;/div&gt;<br><br>
+
+						&nbsp;&nbsp;&lt;div class="col-xs-12 col-md-4"&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="panel panel-purple"&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123; site.getHelp &#125;&#125;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;Thirds Purple Panel&lt;/h3&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;These three panels are in the same row. At the smallest width, all three will expand the entire width but at the medium width, they all share a third of the row.&lt;/p&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;&lt;/p&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+						&nbsp;&nbsp;&lt;/div&gt;<br><br>
+
+						&nbsp;&nbsp;&lt;div class="col-xs-12 col-md-4"&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="panel panel-blue"&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123; site.about &#125;&#125;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3>Thirds Blue Panel&lt;/h3&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>These three panels are in the same row. At the smallest width, all three will expand the entire width but at the medium width, they all share a third of the row.&lt;/p&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>&lt;/p&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+						&nbsp;&nbsp;&lt;/div&gt;<br>
+					&lt;/div&gt;<br>
+
+				</code>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-6">
+			<div class="panel panel-orange">
+				{{ site.events }}
+				<h3>Double Panel</h3>
+				<p>These double panels are in the same row. At the smallest width, both will expand the entire width but at the medium width, they both share half of the row.</p>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-6">
+			<div class="panel panel-purple">
+				{{ site.getHelp }}
+				<h3>Double Panel</h3>
+				<p>These double panels are in the same row. At the smallest width, both will expand the entire width but at the medium width, they both share half of the row.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="panel">
+				<p>Code for the double panel above:</p>
+				<code class="demo">
+
+					&lt;div class="row"&gt;<br>
+						&nbsp;&nbsp;&lt;div class="col-xs-12 col-sm-6"&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="panel panel-orange"&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123; site.events &#125;&#125;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;Double Panel&lt;/h3&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;These double panels are in the same row. At the smallest width, both will expand the entire width but at the medium width, they both share half of the row.&lt;/p&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+						&nbsp;&nbsp;&lt;/div&gt;<br>
+
+						&nbsp;&nbsp;&lt;div class="col-xs-12 col-sm-6"&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="panel panel-purple"&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123; site.getHelp &#125;&#125;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;Double Panel&lt;/h3&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;These double panels are in the same row. At the smallest width, both will expand the entire width but at the medium width, they both share half of the row.&lt;/p&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+						&nbsp;&nbsp;&lt;/div&gt;<br>
+					&lt;/div&gt;<br>
+
+				</code>
+			</div>
+		</div>
+	</div>
+
+	<div class="row clearfix">
 		<div class="col-xs-12">
 			<div class="panel clearfix" style="">
 				<div class="col-xs-12 col-sm-8 col-md-9">
@@ -92,11 +208,11 @@ description: LARS, Inc. - Example HTML Code Page
 												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123; site.about &#125;&#125;<br>
 												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3>Sample Image to the Right&lt;/h3&gt;<br>
 												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>This panel is made up of two columns: one for the text and one for the image. Pay attention to the column widths at specific sizes: they are the inverse of each other with the exception of the samallest size in which they are the same.&lt;/p&gt;<br>
-												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="http://www.independentcharities.org/find/charitypage.php?id=14&ein=52-1537336&key=laurel+advocacy" class="cta" target="_blank">Learn More&lt;/a&gt;<br>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="http://www.link.com" class="cta" target="_blank">Learn More&lt;/a&gt;<br>
 											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="col-xs-12 col-sm-4 col-md-3 panel-img-side p-t-5 p-b-5"&gt;<br>
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img style="max-width: 100px;" src="assets/images/brand/ICOA.png" alt="GuideStar Exchange • Gold Participant"&gt;<br>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img style="max-width: 100px;" src="assets/images/brand/image.png" alt="Image Alt Text"&gt;<br>
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
 									&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
 								&nbsp;&nbsp;&lt;/div&gt;<br>
@@ -120,9 +236,32 @@ description: LARS, Inc. - Example HTML Code Page
 				<div class="col-xs-12 col-sm-8 col-md-9">
 					<div class="panel panel-blue">
 						{{ site.about }}
-						<h3>GuideStar Gold Participant</h3>
-						<p>LARS has achieved Gold status on the GuideStar Exchange, representing a strong commitment to nonprofit transparency and accountability.</p>
+						<h3>Sample Image to the Left</h3>
+						<p>This panel is made up of two columns: one for the text and one for the image. Pay attention to the column widths at specific sizes: they are the inverse of each other with the exception of the samallest size in which they are the same.</p>
+						<p>On images inside panels, manual settings of height and width are used to force the image to be properly sized.</p>
 						<a href="http://www.guidestar.org/organizations/52-1537336/laurel-advocacy-referral-services.aspx" class="cta" target="_blank">Learn More</a>
+						<code class="demo">
+
+							&nbsp;&nbsp;&lt;div class="row clearfix"&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="col-xs-12"&gt;<br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="panel clearfix" style=""&gt;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="col-xs-12 col-sm-4 col-md-3 panel-img-side p-t-5 p-b-5"&gt;<br>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img style="max-width: 200px;" src="assets/images/image.png" alt="Image Alt Text"&gt;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="col-xs-12 col-sm-8 col-md-9"&gt;<br>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="panel panel-blue"&gt;<br>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123; site.about &#125;&#125;<br>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3>Sample Image to the Left&lt;/h3&gt;<br>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This panel is made up of two columns: one for the text and one for the image. Pay attention to the column widths at specific sizes: they are the inverse of each other with the exception of the samallest size in which they are the same.&lt;/p&gt;<br>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;On images inside panels, manual settings of height and width are used to force the image to be properly sized.&lt;/p&gt;<br>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="http://www.link.com" class="cta" target="_blank">Learn More&lt;/a&gt;<br>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+							&nbsp;&nbsp;&lt;/div&gt;<br>
+
+						</code>
 					</div>
 				</div>
 			</div>
