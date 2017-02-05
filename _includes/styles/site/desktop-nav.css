@@ -57,7 +57,8 @@
 #desktop-nav h3 {
 	display: inline-block;
 	position: relative;
-	top: -7px;
+	top: -2px;
+	left: 2px;
 }
 #desktop-nav img {
 	height: 30px;
